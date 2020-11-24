@@ -791,7 +791,8 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
-  width: 1100px;
+  width: 100%;
+  
 }
 
 .services .icon-box .icon {
@@ -806,7 +807,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  font-size: 36px;
+  font-size: 50px;
   transition: 0.5s;
   position: relative;
 }
@@ -828,6 +829,7 @@ section {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
+  background-color: #ffffff;
 }
 
 .services .icon-box .card-header h6{
@@ -844,7 +846,7 @@ section {
 
 .services .collapse p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 
