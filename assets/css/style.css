@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 74vh;
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
-  font-size: 48px;
+  font-size: 150px;
   font-weight: 700;
 }
 
@@ -453,6 +453,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
+  font-size: 25px;
   color: #fff;
 }
 
@@ -622,12 +623,6 @@ section {
   left: calc(50% - 20px);
 }
 
-.section-title p {
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #919191;
-}
-
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -652,6 +647,7 @@ section {
   font-size: 42px;
 }
 
+
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
@@ -671,6 +667,7 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+
 
 /*--------------------------------------------------------------
 # About Us
@@ -751,11 +748,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  padding: 1000 10px;
 }
 
 .clients .owl-item img {
-  width: 80%;
+  width: 100%;
   opacity: 0.5;
   transition: 0.3s;
 }
@@ -787,7 +784,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 3px 20px 10px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
