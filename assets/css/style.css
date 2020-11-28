@@ -661,6 +661,8 @@ section {
 
 .featured-services .icon-box:hover .title a {
   color: #5cb874;
+  position: relative;
+  white-space: nowrap;
 }
 
 .featured-services .description {
