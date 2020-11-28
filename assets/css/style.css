@@ -640,18 +640,26 @@ section {
 
 .featured-services .icon {
   margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .featured-services .icon i {
   color: #5cb874;
-  font-size: 42px;
+  font-size: 90px;
 }
 
+.featured-services .icon {
+  color: #5cb874;
+  font-size: 90px;
+}
 
 .featured-services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 24px;
+  text-align: center;
 }
 
 .featured-services .title a {
@@ -661,8 +669,6 @@ section {
 
 .featured-services .icon-box:hover .title a {
   color: #5cb874;
-  position: relative;
-  white-space: nowrap;
 }
 
 .featured-services .description {
