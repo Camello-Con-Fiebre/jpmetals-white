@@ -776,7 +776,7 @@ section {
 
 .clients .owl-dot {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 50px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
