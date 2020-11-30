@@ -168,10 +168,10 @@
         items: 2
       },
       768: {
-        items: 4
+        items: 3
       },
       900: {
-        items: 6
+        items: 3
       }
     }
   });
