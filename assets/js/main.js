@@ -162,6 +162,7 @@
     autoplay: true,
     dots: true,
     loop: true,
+    margin: 50,
     responsive: {
       0: {
         items: 2
