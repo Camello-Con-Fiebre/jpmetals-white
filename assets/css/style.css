@@ -817,17 +817,6 @@ section {
   
 }
 
-/* .services .icon-box .icon {
-  margin: 0 auto;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
-} */
-
 .services .icon-box .card-header i {
   margin: 0 auto;
   width: 100px;
@@ -845,12 +834,10 @@ section {
   width: 100%;
   font-size: 30px;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: left;
   transition: ease-in-out 0.3s;
   position: relative;
 }
+
 
 .services .icon-box .row .service-icon {
   font-size: 50px;
@@ -897,6 +884,9 @@ section {
   font-size: 15px;
   margin-bottom: 0;
 }
+
+
+
 
 /* FIN BOTON COLLAPSE */
 
