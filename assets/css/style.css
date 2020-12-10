@@ -1641,16 +1641,35 @@ section {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:40px;
-  right:40px;
+  bottom:25px;
+  right:10px;
   background-color:#25d366;
   color:#FFF;
   border-radius:50px;
   text-align:center;
   font-size:30px;
   z-index:100;
+  margin-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+  .whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:25px;
+    right:10px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    margin-bottom: 10%;
+  }
+
 }
 
 .whatsapp-icon {
-  margin-top:13px;
+  margin-top:14px;
 }
