@@ -823,64 +823,6 @@ section {
   /* height: 60px; CAMBIA EL  DE LAS TARJETA */
 }
 
-/* TEST NUEVA TARJETA */
-.services .panel {
-  text-align: center;
-  padding: 0px 0px 0px 0px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
-  width: 100%; 
-}
-
-
-.panel-default>.panel-heading .card-header {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-  background-color: #ffffff;
-}
-
-.panel-default>.panel-heading {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.panel-default>.panel-heading .service-icon{
-  font-size: 50px;
-  transition: 0.5s;
-  height: 100%;
-}
-
-.panel-default>.panel-heading .caret{
-  margin: 0 0;  
-  width: 100%;
-  font-size: 30px;
-  height: 100%;
-  transition: ease-in-out 0.3s;
-  position: relative;
-}
-
-.panel-default>.panel-heading h6{
-  color: #000000;
-  transition: ease-in-out 0.3s;
-  text-align: left;
-  font-weight: 600;
-  margin: 0px 0 0px 0;
-  font-size: 25px;
-}
-
-.panel-default>.panel-heading .panel-body{
-  line-height: 24px;
-  font-size: 15px;
-  margin-bottom: 0;
-}
-
-
-/* FIN TEST */
-
 .services .icon-box .row .caret {
   margin: 0 0;  
   width: 100%;
