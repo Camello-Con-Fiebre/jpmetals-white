@@ -14,3 +14,4 @@ jobs:
         server: ${{ secrets.JPM_FTP_HOST}}
         username: ${{ secrets.JPM_FTP_USER}}
         password: ${{ secrets.JPM_FTP_PW}}
+        server-dir: /home/jpmetals/public_html
