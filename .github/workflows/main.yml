@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
         server: ${{secrets.JPM_FTP_HOST}}
         username: ${{secrets.JPM_FTP_USER}}
