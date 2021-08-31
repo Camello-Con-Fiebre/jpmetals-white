@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ${{ secrets.JPM_FTP_HOST}}
-        username: ${{ secrets.JPM_FTP_USER}}
-        password: ${{ secrets.JPM_FTP_PW}}
-        server-dir: /home/jpmetals/public_html/
+        server: ${{secrets.JPM_FTP_HOST}}
+        username: ${{secrets.JPM_FTP_USER}}
+        password: ${{secrets.JPM_FTP_PW}}
+        server-dir: /public_html/
