@@ -17,4 +17,3 @@ jobs:
         username: ${{secrets.JPM_FTP_USER}}
         password: ${{secrets.JPM_FTP_PW}}
         server-dir: public_html/
-        exclude: *.md 
