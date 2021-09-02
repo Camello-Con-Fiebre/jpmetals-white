@@ -18,4 +18,4 @@ jobs:
         password: ${{secrets.JPM_FTP_PW}}
         server-dir: public_html/
         exclude:
-          - /*.rm
+          - **/*.rm
